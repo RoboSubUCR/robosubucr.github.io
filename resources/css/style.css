@@ -1,0 +1,25 @@
+body {
+    background-color: #efefef;
+    font-family: Calibri, Arial;
+}
+
+header {
+    text-align: center;
+}
+table {
+    background-color: pink;
+    width: 100%;
+}
+
+tr {
+    text-align: center;
+}
+
+td {
+    background-color: green;
+    width: 240px;
+}
+
+#content {
+    height: 480px;
+}
