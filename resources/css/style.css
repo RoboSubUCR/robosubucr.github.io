@@ -1,14 +1,38 @@
 body {
+    margin: 1vh 1vw;
     background-color: #efefef;
     font-family: Calibri, Arial;
 }
 
 header {
+    margin: 1vh 1vw;
     text-align: center;
+    background-color: #ffffff;
 }
-table {
+
+header h1 {
+    margin: 0px;
+    font-size: 8vh;
+    font-weight: lighter;
+    line-height: 8vh;
+}
+
+#logo {
+     height: 8vh;
+     float: left;
+     margin-left: 1vw;
+}
+
+.text {
+    width: 200px;
+}
+
+nav {
+    float: left;
+    margin: 1vh 1vw;
+    width: 28vw;
+    height: 88vh;
     background-color: pink;
-    width: 100%;
 }
 
 tr {
@@ -16,10 +40,18 @@ tr {
 }
 
 td {
-    background-color: green;
-    width: 240px;
+    background-color: #ffffff;
+    height: 48px;
 }
 
 #content {
     height: 480px;
+}
+
+section {
+    float: right;
+    width: 64vw;
+    height: 88vh;
+    margin: 1vh 1vw;
+    background-color: pink;
 }
