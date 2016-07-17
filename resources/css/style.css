@@ -1,12 +1,13 @@
-body {
-    margin: 1vh 1vw;
-    background-color: #efefef;
+html, body {
+    margin: 0px;
+    background-color: #000000;
     font-family: Calibri, Arial;
+    height: 100%;
 }
 
 header {
     position: relative;
-    margin: 1vh 1vw;
+    height: 48px;
     text-align: center;
     background-color: #ffffff;
 }
@@ -15,13 +16,12 @@ h1 {
     margin: 0px;
     display: inline-block;
     font-size: 40px;
-    text-align: center;
     font-weight: lighter;
     text-transform: uppercase;
 }
 
 h2 {
-    margin: 0px 0px 0px 0px;
+    margin: 0px;
     display: inline-block;
     font-size: 32px;
     text-align: center;
@@ -31,52 +31,35 @@ h2 {
 #logo {
     position: absolute;
     left: 8px;
-    width: 48px;
-}
-
-#logo img {
-    width: 100%;
-}
-
-#title {
-    width: 400px;
-    background-color: green;
-}
-
-#page {
-    width: 400px;
-    background-color: green;
+    height: 48px;
 }
 
 .text {
     width: 200px;
 }
 
+#wrapper {
+    display: table;
+    height: -moz-calc(100% - 48px);
+}
+
 nav {
-    float: left;
-    margin: 1vh 1vw;
-    width: 28vw;
-    height: 88vh;
+    display: table-cell;
+    min-width: 200px;
     background-color: pink;
 }
 
-tr {
-    text-align: center;
+section {
+    display: table-cell;
+    width: 100%;
+    background-image: url(../images/ocean.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 #navigation td {
     background-color: #ffffff;
     height: 48px;
-}
-
-#content {
-    height: 480px;
-}
-
-section {
-    float: right;
-    width: 64vw;
-    height: 88vh;
-    margin: 1vh 1vw;
-    background-color: pink;
+    text-align: center;
 }
