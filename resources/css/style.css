@@ -24,7 +24,7 @@ h1 {
 h2 {
     margin: 0px;
     display: inline-block;
-    font-size: 32px;
+    font-size: 4.8vh;
     text-align: center;
     font-weight: lighter;
 }
@@ -41,9 +41,9 @@ h2 {
 
 #wrapper {
     display: table;
-    height: -moz-calc(100% - 48px);
-    height: -webkit-calc(100% - 48px);
-    height: calc(100% - 48px);
+    height: -moz-calc(100% - 8vh);
+    height: -webkit-calc(100% - 8vh);
+    height: calc(100% - 8vh);
 }
 
 nav {
