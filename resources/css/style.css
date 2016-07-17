@@ -7,7 +7,7 @@ html, body {
 
 header {
     position: relative;
-    height: 48px;
+    height: 8vh;
     text-align: center;
     background-color: #ffffff;
 }
@@ -15,8 +15,9 @@ header {
 h1 {
     margin: 0px;
     display: inline-block;
-    font-size: 40px;
+    font-size: 6.4vh;
     font-weight: lighter;
+    line-height: 8vh;
     text-transform: uppercase;
 }
 
@@ -30,8 +31,8 @@ h2 {
 
 #logo {
     position: absolute;
-    left: 8px;
-    height: 48px;
+    left: 1vw;
+    height: 8vh;
 }
 
 .text {
@@ -41,6 +42,8 @@ h2 {
 #wrapper {
     display: table;
     height: -moz-calc(100% - 48px);
+    height: -webkit-calc(100% - 48px);
+    height: calc(100% - 48px);
 }
 
 nav {
